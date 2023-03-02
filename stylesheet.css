@@ -1,27 +1,58 @@
+.intro {
+    background-color: slategrey;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
 h1 {
     font-size: 70px;
-    font-weight: bold ;
-    color:ghostwhite;
+    font-weight: bold;
+    color: ghostwhite;
 }
 
 h2 {
     font-weight: bold;
     color: rgb(46, 46, 56);
+    background-color: rgb(99, 125, 174);
+    padding: 20px;
+    margin: 0px;
 }
 
-
+h3 {
+    color: rgb(66, 78, 90);
+}
 
 body {
     background-color: lightgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(143, 111, 175);
+    color: rgb(47, 18, 75);
+    padding: 0;
+    margin: 0;
+    border: solid; border-color: darkorange ;
 }
 
-section {
-    background-color: slategrey;
-    text-align: center;
+.first {
+    Color: rgb(243, 240, 240)
 }
 
-h3 {
-    color: rgb(66, 78, 90)
+
+.block {
+    width: 300px;
+    border: 3px solid rgb(54, 70, 92);
+    background-color: rgb(160, 174, 188);
+}
+
+article {
+    margin: 100px;
+}
+
+footer {
+    margin: 100px;
+}
+.one{
+    margin-left: -50px;
 }

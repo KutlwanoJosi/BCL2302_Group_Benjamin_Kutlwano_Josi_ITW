@@ -1,5 +1,6 @@
 .intro {
     text-align: center;
+    padding-bottom: 0%;
 }
 
 img {
@@ -27,11 +28,10 @@ h3 {
 body {
     background-color: lightgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(47, 18, 75);
-    padding: 0;
-    margin: 0;
+    color: rgb(66, 78, 90);
     border: solid; 
     border-color: darkorange ;
+    margin: 0%;
 }
 
 .first {
@@ -40,11 +40,10 @@ body {
 
 
 .block {
-    width: 300px;
+    text-align: center;
     border: 3px solid rgb(54, 70, 92);
     background-color: rgb(160, 174, 188);
-    position: absolute;
-    top: 0.5%; 
+    position:relative;
 }
 
 article {
@@ -59,17 +58,11 @@ footer {
 
 .container-main{
     display: flex;
-  
     justify-content: space-evenly;
 }
 
 .container-1{
     background-color: slategrey;
-    border: solid; 
-    border-color: darkred;
-}
-
-#content{
-    text-align: center;
-    text-size-adjust: 2px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
